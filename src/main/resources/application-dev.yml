@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: postgresqlssltest
+    version: 1.0.0
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/istadClass_db
+#    username: postgres
+#    password: "qwer"
+#    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+my-server:
+  path: "User/somaly/Desktop/my-server"
+
+server:
+  port: 8081
