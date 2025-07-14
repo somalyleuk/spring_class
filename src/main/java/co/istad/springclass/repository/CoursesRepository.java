@@ -29,4 +29,8 @@ public class CoursesRepository {
                 .filter(course -> course.getUuid().equals(uuid))
                 .findFirst();
     }
+
+    public void create(Courses course) {
+        courseList.add(course);
+    }
 }
